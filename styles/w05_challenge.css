@@ -1,0 +1,14 @@
+.bottom img {
+    border: 10px solid rgb(92, 91, 91);
+    border-radius: 50%;
+    width: 15%;
+}
+main {
+    background-color: gray;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.top img {
+    max-width: 1250px;
+    margin: 0 auto;
+}

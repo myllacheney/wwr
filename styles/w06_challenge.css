@@ -1,0 +1,41 @@
+.tart   {
+    font-family: 'DM', Serif-Text;
+    font-size: 200px;
+    letter-spacing: 2.5rem;
+    position:absolute;
+    font-weight: bold;
+    bottom: 50%;
+    left: 5%;
+}
+
+.cherries  {
+    font-family: 'DM', Serif-Text;
+    color: rgb(153, 34, 34);
+    font-size: 100px;
+    top: 65%;
+    right: 10%;
+    font-weight: bold;
+    position: absolute;
+    letter-spacing: 1.5rem;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    background-color: rgb(152, 157, 163);
+    top: 0;
+    left: 55%;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+}
